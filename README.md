@@ -68,28 +68,52 @@ Desenvolver um sistema integrado que permita a gestão de produtos, controlo de 
   cd BACKEND
   npm install
   npm start
+  ```
 
 - Frontend:
 ```bash
   cd FRONTEND/tp01
   npm install
   npm start
+  ```
 
-📦 Estrutura do Repositório
+## 📦 Estrutura do Repositório
+```
 Loja_Bricolage_Gestao_Stock/
 ├── BACKEND/
-│   ├── api/
-│   ├── config/
-│   ├── controllers/
-│   ├── logs/
-│   └── ...
-├── FRONTEND/
-│   ├── src/
-│   ├── public/
-│   └── ...
-├── README.md
-├── database.sql
-└── LICENSE
+│   ├── data/
+│   │   ├── produto/
+│   │   ├── stock/
+│   │   ├── utilizador/
+│   │   └── venda/
+│   ├── server/
+│   └── ... 
+└── FRONTEND/
+    ├── tp01/
+    │   ├── public/
+    │   └── src/
+    │   │   ├── 404/
+    │   │   ├── carrinho/
+    │   │   ├── compra/
+    │   │   ├── gestao/
+    │   │   ├── header/
+    │   │   ├── login/
+    │   │   ├── produto/
+    │   │   ├── recover/
+    │   │   ├── registar/
+    │   │   ├── utilizador/
+    │   │   └── vendas/
+    │   └── ...
+    └── ...
+```
+
+## 🏗️ Melhorias Futuras
+- Integração com métodos de pagamento online.
+- Aplicação móvel complementar.
+- Relatórios detalhados com gráficos.
+
+$$ 📜 Licença
+Este projeto está licenciado sob a licença MIT.
 
   
 
