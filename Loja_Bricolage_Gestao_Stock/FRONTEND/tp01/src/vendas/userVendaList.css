@@ -1,0 +1,104 @@
+.userVenda-list-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+     width: 100%;
+}
+
+.userVenda-list {
+    padding: 20px;
+    background-color: var(--background-card);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+.userVenda-list h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.userVenda-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.userVenda-list ul li {
+    margin-bottom: 10px;
+}
+
+.userVenda-list ul li .userVenda-link {
+    display: block;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: #4b4b4b;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.userVenda-list ul li .userVenda-link:hover {
+    background-color: var(--background-dark_red);
+    transform: scale(1.02);
+}
+
+.userVenda-info {
+    display: flex;
+    align-items: center;
+}
+
+.userVenda-images {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.userVenda-product-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+}
+
+.userVenda-details {
+    font-size: 1rem;
+    color: #ddd;
+    line-height: 1.5;
+}
+
+.sidebar-userVendaList {
+    padding: 20px;
+    background-color: var(--background-card);
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
+    min-width: 230px;
+    min-height: 100vh;
+}
+
+.sidebar-search-input-userVendaList {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid var(--text-secondary);
+    border-radius: 0.375rem;
+    background-color: var(--background-card);
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.sidebar-dropdown-userVendaList {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.sidebar-dropdown-userVendaList select {
+    width: 157%;
+    padding: 8px;
+    border: 1px solid var(--text-secondary);
+    border-radius: 0.375rem;
+    background-color: var(--background-card);
+    color: var(--text-secondary);
+    cursor: pointer;
+}

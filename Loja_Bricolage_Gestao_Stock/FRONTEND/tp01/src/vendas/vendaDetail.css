@@ -1,0 +1,64 @@
+.venda-detalhe-card {
+    padding: 20px;
+    background-color: var(--background-card);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.venda-detalhe-card h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.venda-detalhe-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.venda-informacao {
+    font-size: 1rem;
+    color: var(--text-secondary);
+}
+
+.venda-informacao p {
+    margin: 5px 0;
+}
+
+.venda-informacao ul {
+    list-style: none;
+    padding: 0;
+}
+
+.produto-informacao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.produto-imagem-container {
+    flex-shrink: 0;
+}
+
+.produto-imagem {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.produto-detalhes {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.venda-data-total {
+    display: flex;
+    justify-content: space-between; /* Para alinhar a data à esquerda e o total à direita */
+}

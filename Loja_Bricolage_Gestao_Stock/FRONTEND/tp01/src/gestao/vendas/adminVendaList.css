@@ -1,0 +1,132 @@
+.adminVenda-list-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+     width: 100%;
+}
+
+.adminVenda-list {
+    padding: 20px;
+    background-color: var(--background-card);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+.adminVenda-list h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.adminVenda-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.adminVenda-list ul li {
+    margin-bottom: 10px;
+}
+
+.adminVenda-list ul li .adminVenda-link {
+    display: block;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: #4b4b4b;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.adminVenda-list ul li .adminVenda-link:hover {
+    background-color: var(--background-dark_red);
+    transform: scale(1.02);
+}
+
+.adminVenda-info {
+    display: flex;
+    align-items: center;
+}
+
+.adminVenda-images {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.adminVenda-product-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.adminVenda-details {
+    font-size: 1rem;
+    color: #ddd;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.adminVendaleft-details {
+    flex: 1;
+}
+
+.adminVendaright-details {
+    margin-top: 72px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+
+.sidebar-adminVendaList {
+    padding: 20px;
+    background-color: var(--background-card);
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
+    min-width: 230px;
+    min-height: 100vh;
+}
+
+.sidebar-search-input-adminVendaList {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid var(--text-secondary);
+    border-radius: 0.375rem;
+    background-color: var(--background-card);
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.sidebar-dropdown-adminVendaList {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.sidebar-dropdown-adminVendaList select {
+    width: 156%;
+    padding: 8px;
+    border: 1px solid var(--text-secondary);
+    border-radius: 0.375rem;
+    background-color: var(--background-card);
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.sidebar-dropdown-adminVendaListe {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.sidebar-dropdown-adminVendaListe select {
+    width: 125%;
+    padding: 8px;
+    border-radius: 0.375rem;
+    cursor: pointer;
+}

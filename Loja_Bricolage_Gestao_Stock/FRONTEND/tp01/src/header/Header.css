@@ -1,0 +1,80 @@
+.header {
+  background-color: #c0392b;
+  color: #fff;
+  padding: 20px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.header nav ul li {
+  position: relative; /* Added for dropdown positioning */
+}
+
+.header nav ul.perfil li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.admin-dropdown {
+  display: inline-block;
+  position: relative;
+  
+}
+
+.admin-dropbtn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.admin-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.admin-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.admin-dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.admin-dropdown:hover .admin-dropdown-content {
+  display: block;
+}
+
+.admin-dropdown:hover .admin-dropbtn {
+  text-decoration: underline;
+}

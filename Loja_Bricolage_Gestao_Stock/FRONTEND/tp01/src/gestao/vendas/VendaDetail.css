@@ -1,0 +1,83 @@
+.adminVenda-detalhe-card {
+    padding: 20px;
+    background-color: var(--background-card);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.adminVenda-detalhe-card h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.adminVenda-detalhe-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.adminVenda-informacao {
+    font-size: 1rem;
+    color: var(--text-secondary);
+}
+
+.adminVenda-informacao p {
+    margin: 5px 0;
+}
+
+.adminVenda-informacao ul {
+    list-style: none;
+    padding: 0;
+}
+
+.adminProduto-informacao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.adminProduto-imagem-container {
+    flex-shrink: 0;
+}
+
+.adminProduto-imagem {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.adminProduto-detalhes {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.adminVenda-data-total {
+    display: flex;
+    justify-content: space-between; /* Para alinhar a data à esquerda e o total à direita */
+}
+
+.delete-adminVenda-button {
+    font-size: 15px;
+    width: 100%;
+    justify-content: center;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: var(--background-red);
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-adminVenda-button:hover {
+    background-color: var(--background-dark_red);
+    transform: scale(1.05);
+}

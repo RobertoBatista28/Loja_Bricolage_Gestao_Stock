@@ -1,0 +1,162 @@
+:root {
+  --background-color: #f4f4f4;
+  --background-card: #ffffff;
+  --background-red: #e74c3c;
+  --background-dark_red: #c0392b;
+  --text-primary: #e74c3c;
+  --text-secondary: #4b4b4b;
+}
+
+.userProfile {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.userProfile h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.userImage {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.userImage img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.userField {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.userField strong {
+  color: #555;
+}
+
+.userField span {
+  color: #888;
+}
+
+.userProfile p {
+  text-align: center;
+  color: #555;
+}
+
+.edit-profile-button {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: var(--background-red);
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.edit-profile-button:hover {
+  background-color: var(--background-dark_red);
+  transform: scale(1.05);
+}
+
+.delete-perfil-button {
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: var(--background-red);
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.delete-perfil-button:hover {
+  background-color: var(--background-dark_red);
+  transform: scale(1.05);
+}
+
+.password-button {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: var(--background-red);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.password-button:hover {
+  background-color: var(--background-dark_red);
+  transform: scale(1.05);
+}
+
+.imageButton {
+  display: inline-block;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: var(--background-red);
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #DEDEDE;
+}
+
+.uploadButton {
+  display: flexbox;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: var(--background-red);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.uploadButton:hover, .delete-perfil-button:hover {
+  background-color: var(--background-dark_red);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.userField1 {
+  border-top: 1px solid var(--text-secondary);
+  padding-top: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: #888;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.userField1 strong {
+  color: #555;
+}
