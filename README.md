@@ -13,7 +13,7 @@ Desenvolver um sistema integrado que permita a gestão de produtos, controlo de 
 ## 🚀 Funcionalidades
 
 ### Backend
-- **Gestão de Produto**: CRUD completo para produtos, incluindo título, categoria, descrição, preço, classificação e fotografia.
+- **Gestão dos Produto**: CRUD completo para produtos, incluindo título, categoria, descrição, preço, classificação e fotografia.
 - **Controlo de Stock**: Monitorização e alertas para reposição automática de produtos.
 - **Gestão de Vendas**: Registo de vendas e movimentações de stock.
 - **Gestão de Clientes**: Registo e autenticação de utilizadores com diferentes permissões.
@@ -26,9 +26,7 @@ Desenvolver um sistema integrado que permita a gestão de produtos, controlo de 
   - Pesquisa simples e avançada.
 - **Detalhes do Produto**: Exibição de informações detalhadas de um produto.
 - **Administração**:
-  - Gestão de produtos.
-  - Gestão dos clientes.
-  - Gestão de vendas.
+  - Edição de produtos.
   - Upload de imagens.
 - **Zona do Cliente**:
   - Gestão de perfil.
@@ -61,7 +59,7 @@ Desenvolver um sistema integrado que permita a gestão de produtos, controlo de 
 1. Clone este repositório:
    ```bash
    git clone https://github.com/RobertoBatista28/Loja_Bricolage_Gestao_Stock.git
-
+   ```
 2. Instalção das dependências e execução:
 - Backend:
   ```bash
@@ -78,7 +76,7 @@ Desenvolver um sistema integrado que permita a gestão de produtos, controlo de 
   ```
 
 ## 📦 Estrutura do Repositório
-
+```
 Loja_Bricolage_Gestao_Stock/
 ├── BACKEND/
 │   ├── data/
@@ -105,7 +103,7 @@ Loja_Bricolage_Gestao_Stock/
     │   │   └── vendas/
     │   └── ...
     └── ...
-
+```
 
 ## 🏗️ Melhorias Futuras
 - Integração com métodos de pagamento online.
