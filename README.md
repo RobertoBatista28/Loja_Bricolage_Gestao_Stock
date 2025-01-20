@@ -78,7 +78,7 @@ Desenvolver um sistema integrado que permita a gestão de produtos, controlo de 
   ```
 
 ## 📦 Estrutura do Repositório
-```
+
 Loja_Bricolage_Gestao_Stock/
 ├── BACKEND/
 │   ├── data/
@@ -105,14 +105,14 @@ Loja_Bricolage_Gestao_Stock/
     │   │   └── vendas/
     │   └── ...
     └── ...
-```
+
 
 ## 🏗️ Melhorias Futuras
 - Integração com métodos de pagamento online.
 - Aplicação móvel complementar.
 - Relatórios detalhados com gráficos.
 
-$$ 📜 Licença
+## 📜 Licença
 Este projeto está licenciado sob a licença MIT.
 
   
