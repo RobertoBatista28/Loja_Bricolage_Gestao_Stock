@@ -24,7 +24,8 @@ Desenvolver um sistema integrado que permita a gestão de produtos, controlo de 
   - Paginação.
   - Ordenação (sort).
   - Pesquisa simples e avançada.
-- **Detalhes do Produto**: Exibição de informações detalhadas de um produto.
+- **Detalhes do Produto**:
+  - Exibição de informações detalhadas de um produto.
 - **Administração**:
   - Edição de produtos.
   - Upload de imagens.
