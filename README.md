@@ -59,7 +59,7 @@ Desenvolver um sistema integrado que permita a gestão de produtos, controlo de 
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/RobertoBatista28/Loja_Bricolage_Gestao_Stock.git
+   git clone https://github.com/RobertoBatista28/Website_Loja_Bricolage_Gestao_Stock.git
    ```
 2. Instalação das dependências e execução:
 - Backend:
