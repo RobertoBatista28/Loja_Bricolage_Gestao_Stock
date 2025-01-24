@@ -1,5 +1,3 @@
-# Loja_Bricolage_Gestao_Stock
-
 # Sistema de Gestão de Loja de Bricolage
 
 Este repositório contém o código-fonte de um sistema para gestão de vendas e stock desenvolvido como parte da unidade curricular **Programação para a Web** no curso de **Cibersegurança, Redes e Sistemas Informáticos** (CRSI).
